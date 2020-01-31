@@ -1,0 +1,33 @@
+<div th:replace="fragments/header :: header">...</div>
+<body>
+	<div style="padding: 0 30px">
+		  
+ 
+		<table class="table table-striped table-hover" >
+		  <thead>
+			<tr >
+				<th>Id</th>
+				<th>Name</th>
+				<th>Zip</th>
+				<th>DeductableIndividual</th>
+				<th>DeductableFamily</th>
+				<th>OutOfPocketIndividual</th>
+				<th>OutOfPocketFamily</th>
+				<th>Copay</th>
+			</tr>
+			</thead>
+			<tr th:each=" plan : ${plans}">
+				<td> 
+				 <a th:href="@{'plan/' + ${plan.id}}"><span th:text="${plan.id}"/></a>
+				 </td>
+				<td th:text="${plan.name}"></td>
+				<td th:text="${plan.zip}"></td>
+				<td th:text="${plan.deductableIndividual}"></td>
+				<td th:text="${plan.deductableFamily}"></td>
+				<td th:text="${plan.outOfPocketIndividual}"></td>
+				<td th:text="${plan.outOfPocketFamily}"></td>
+				<td th:text="${plan.copay}"></td>
+			</tr>
+		</table>
+	</div>
+</body>

@@ -1,0 +1,5 @@
+Spring Application Name=healthPlan 
+Spring Description=${app.subTitle}
+Spring Boot Version ${spring-boot.version}
+${server.port}${server.servlet.context-path}
+

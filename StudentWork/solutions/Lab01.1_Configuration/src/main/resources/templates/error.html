@@ -1,0 +1,12 @@
+<div th:replace="fragments/header :: header">...</div>
+ <div style="padding: 0 30px">
+<a href="/insure"><img th:src="@{/images/home.jpeg}" width="75" height="60"/></a> 
+ <a href="/insure/logout"><img th:src="@{/images/logout.jpeg}" width="75" height="60" /></a>	
+	
+  <p style="font-size:30px"  class="label label-pill label-danger">Contact IT support</p>
+  
+  <p style="color:red;font-size:20x" th:text="${exception}"/>
+  <p style="color:red;font-size:20px" th:text="${url}"/>
+  <br/>
+ </div> 
+ 

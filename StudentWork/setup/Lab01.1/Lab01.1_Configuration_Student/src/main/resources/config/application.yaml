@@ -1,0 +1,8 @@
+#server.port=8082
+#server.servlet.context-path=/insure
+ 
+#app.title=Medical Insurance Plans
+#app.subtitle=${app.title} in your Zip Code
+ 
+
+  

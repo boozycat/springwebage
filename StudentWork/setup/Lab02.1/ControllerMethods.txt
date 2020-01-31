@@ -1,0 +1,21 @@
+ 
+	private String getDefaultTitle(Model model, String str) {
+		model.addAttribute("types", planProperties);
+		return str;
+	}
+	 
+	 
+	public String getPlans(Optional<String> optional, Model model) {
+	   String type = optional.orElse("HMO");
+	   List<HealthPlan> plans = dao.getPlans().stream()
+			   .filter(p-> p.getName().equalsIgnoreCase(type))
+			   .filter(p-> p.getDeductableIndividual() <= planProperties.getMaxDeductableIndividual()) 
+			   .filter(p-> p.getCopay() <= planProperties.getMaxCopay()).collect(Collectors.toList());
+	   model.addAttribute("plans", plans);
+	   return "search";
+	}
+	 
+	public String getIndividualplan(long id, Model model) {
+	   model.addAttribute("plan", dao.getPlan(id));
+	   return "plan";
+	}

@@ -1,0 +1,6 @@
+       public ResponseEntity<Long> add( HealthPlan plan) throws URISyntaxException {
+		dao.add(plan);
+		long temp = dao.getPlans().stream().mapToLong(p -> p.getId()).max().getAsLong();
+		return ResponseEntity.created(new URI("healthPlan/" + temp))
+				.body(dao.getPlans().stream().filter(p -> p.getName().equals(plan.getName())).count());
+	}

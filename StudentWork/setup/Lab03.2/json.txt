@@ -1,0 +1,1 @@
+[{"id":0,"zip":99999,"name":"HMO","deductableIndividual":3000,"deductableFamily":3000,"outOfPocketIndividual":3000,"outOfPocketFamily":9000,"copay":30.0}]

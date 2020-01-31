@@ -1,0 +1,200 @@
+2019-06-01 15:16:29.607  INFO 19592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-01 15:16:29.612  INFO 19592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-01 15:16:31.598  INFO 19592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2019-06-01 15:16:31.842  INFO 19592 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2230 ms
+2019-06-01 15:16:32.648  INFO 19592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-01 15:16:32.692  WARN 19592 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthPlanController': Unsatisfied dependency expressed through field 'counter'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'counterService' defined in com.health.HealthApplication: Unsatisfied dependency expressed through method 'counterService' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'io.micrometer.core.instrument.MeterRegistry' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-06-01 15:16:32.734  INFO 19592 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-01 15:16:32.958 ERROR 19592 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method counterService in com.health.HealthApplication required a bean of type 'io.micrometer.core.instrument.MeterRegistry' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'io.micrometer.core.instrument.MeterRegistry' in your configuration.
+
+2019-06-01 15:18:31.064  INFO 22096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-01 15:18:31.080  INFO 22096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-01 15:18:39.573  INFO 22096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2019-06-01 15:18:39.829  INFO 22096 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 8749 ms
+2019-06-01 15:18:40.916  INFO 22096 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-01 15:18:40.968  WARN 22096 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthPlanController': Unsatisfied dependency expressed through field 'counter'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'counterService' defined in com.health.HealthApplication: Unsatisfied dependency expressed through method 'counterService' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'io.micrometer.core.instrument.MeterRegistry' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-06-01 15:18:41.014  INFO 22096 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-01 15:18:41.277 ERROR 22096 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method counterService in com.health.HealthApplication required a bean of type 'io.micrometer.core.instrument.MeterRegistry' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'io.micrometer.core.instrument.MeterRegistry' in your configuration.
+
+2019-06-01 15:19:06.266  INFO 24924 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-01 15:19:06.275  INFO 24924 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-01 15:19:11.239  INFO 24924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2019-06-01 15:19:11.504  INFO 24924 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5227 ms
+2019-06-01 15:19:12.867  INFO 24924 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-01 15:19:12.950  WARN 24924 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthPlanController': Unsatisfied dependency expressed through field 'counter'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'counterService' defined in com.health.HealthApplication: Unsatisfied dependency expressed through method 'counterService' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'io.micrometer.core.instrument.MeterRegistry' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-06-01 15:19:12.994  INFO 24924 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-01 15:19:13.423 ERROR 24924 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method counterService in com.health.HealthApplication required a bean of type 'io.micrometer.core.instrument.MeterRegistry' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'io.micrometer.core.instrument.MeterRegistry' in your configuration.
+
+2019-06-01 15:19:46.569  INFO 21856 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-01 15:19:46.575  INFO 21856 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-01 15:19:48.511  INFO 21856 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2019-06-01 15:19:48.735  INFO 21856 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2160 ms
+2019-06-01 15:19:49.509  INFO 21856 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-01 15:19:49.569  WARN 21856 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'counterService' defined in com.health.HealthApplication: Unsatisfied dependency expressed through method 'counterService' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'io.micrometer.core.instrument.MeterRegistry' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-06-01 15:19:49.611  INFO 21856 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-01 15:19:49.843 ERROR 21856 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method counterService in com.health.HealthApplication required a bean of type 'io.micrometer.core.instrument.MeterRegistry' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'io.micrometer.core.instrument.MeterRegistry' in your configuration.
+
+2019-06-01 15:22:43.608  INFO 25004 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-01 15:22:43.610  INFO 25004 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-01 15:22:45.639  INFO 25004 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2019-06-01 15:22:45.835  INFO 25004 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2225 ms
+2019-06-01 15:22:46.608  INFO 25004 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-01 15:22:46.646  WARN 25004 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'counterService' defined in com.health.HealthApplication: Unsatisfied dependency expressed through method 'counterService' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'io.micrometer.core.instrument.MeterRegistry' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-06-01 15:22:46.673  INFO 25004 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-01 15:22:46.852 ERROR 25004 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method counterService in com.health.HealthApplication required a bean of type 'io.micrometer.core.instrument.MeterRegistry' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'io.micrometer.core.instrument.MeterRegistry' in your configuration.
+
+2019-06-01 15:23:59.687  INFO 21136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-01 15:23:59.688  INFO 21136 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-01 15:24:01.651  INFO 21136 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2019-06-01 15:24:01.861  INFO 21136 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2173 ms
+2019-06-01 15:24:02.739  INFO 21136 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-01 15:24:02.780  WARN 21136 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'counterService' defined in com.health.HealthApplication: Unsatisfied dependency expressed through method 'counterService' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'io.micrometer.core.instrument.MeterRegistry' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-06-01 15:24:02.821  INFO 21136 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-01 15:24:02.984 ERROR 21136 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method counterService in com.health.HealthApplication required a bean of type 'io.micrometer.core.instrument.MeterRegistry' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'io.micrometer.core.instrument.MeterRegistry' in your configuration.
+
+2019-06-01 15:25:41.269  INFO 25368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-01 15:25:41.269  INFO 25368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-01 15:25:43.078  INFO 25368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2019-06-01 15:25:43.272  INFO 25368 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2003 ms
+2019-06-01 15:25:44.065  INFO 25368 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-01 15:25:44.108  WARN 25368 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'counterService' defined in com.health.HealthApplication: Unsatisfied dependency expressed through method 'counterService' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'io.micrometer.core.instrument.MeterRegistry' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2019-06-01 15:25:44.133  INFO 25368 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-01 15:25:44.306 ERROR 25368 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method counterService in com.health.HealthApplication required a bean of type 'io.micrometer.core.instrument.MeterRegistry' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'io.micrometer.core.instrument.MeterRegistry' in your configuration.
+
+2019-06-01 15:32:06.064  INFO 14872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-01 15:32:06.069  INFO 14872 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-01 15:32:08.333  INFO 14872 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3cf8f686] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 15:32:09.080  INFO 14872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2019-06-01 15:32:09.385  INFO 14872 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3315 ms
+2019-06-01 15:32:10.372  INFO 14872 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-01 15:32:11.033  INFO 14872 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 15:32:11.485  INFO 14872 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2019-06-01 15:32:11.567  INFO 14872 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/insure'
+2019-06-01 15:32:31.709  INFO 14872 --- [Thread-7] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-06-01 15:32:31.711  INFO 14872 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-01 15:32:38.863  INFO 17012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-01 15:32:38.864  INFO 17012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-01 15:32:40.577  INFO 17012 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b00d16b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 15:32:41.220  INFO 17012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2019-06-01 15:32:41.476  INFO 17012 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2612 ms
+2019-06-01 15:32:42.618  INFO 17012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-01 15:32:43.517  INFO 17012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 15:32:44.063  INFO 17012 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2019-06-01 15:32:44.204  INFO 17012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/insure'
+2019-06-01 15:32:50.657  INFO 17012 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-01 15:32:50.683  INFO 17012 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2019-06-01 15:34:40.816  WARN 17012 --- [http-nio-8082-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'code' is not present]

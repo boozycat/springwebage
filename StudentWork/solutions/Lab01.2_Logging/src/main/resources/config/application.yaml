@@ -1,0 +1,10 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /insure
+
+app:
+  title: Medical Insurance Plans
+  subTitle: ${app.title} in your Zip Code
+
+  

@@ -1,0 +1,8 @@
+HealthPlan pl = repo.save(plan);	 	 
+		return ResponseEntity
+				.created(new URI("healthPlan/"+pl.getId())).body( 
+						 ((Collection<HealthPlan>) repo.findAll())
+						.stream()
+						.filter(p-> p.getName().equals(plan.getName()))
+						.count());
+				 

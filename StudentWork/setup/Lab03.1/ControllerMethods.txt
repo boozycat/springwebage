@@ -1,0 +1,15 @@
+	 
+	public HealthPlan get(long id) {
+  	   return dao.getPlan(id);
+	}
+	 
+	public ResponseEntity<HealthPlan> getEntity(long id) {
+  	   BodyBuilder builder =  ResponseEntity.ok();
+  	   builder.header("TotalPlans","Total Plans " + dao.getPlans().stream().count());
+  	   return builder.body(dao.getPlan(id));
+	}
+	 
+	public List<HealthPlan> getAll(Optional<String> optional) {
+		String type = optional.orElse("HMO");
+	    return dao.getPlans().stream().filter(p-> p.getName().equalsIgnoreCase(type)).collect(Collectors.toList());
+	}
