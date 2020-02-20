@@ -1,6 +1,0 @@
-FROM java:8
-MAINTAINER Derek derek@gmail.com
-LABEL key station
-EXPOSE 7777
-ADD /target/station-0.0.1-SNAPSHOT.jar station.jar
-ENTRYPOINT  ["java", "-jar", "station.jar"]
